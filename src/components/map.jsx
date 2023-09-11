@@ -10,7 +10,7 @@ import Port from './mapComponents/port.jsx'
 import { makePortsArray, shufflePorts } from './mapComponents/addPorts.jsx'
 import { chooseFromArrayAndRemove } from './mapComponents/mapFunctions.jsx'
 
-function Map({ trulyRandomPorts, randomHexagonOrientations}) {
+function Map({ trulyRandomPorts, hexagonOrientations}) {
   //Get Json
   let jsonMap = JSON.parse(jsonString)
 
@@ -53,7 +53,7 @@ function Map({ trulyRandomPorts, randomHexagonOrientations}) {
           hexType={terrainArray[hexCounter - 1]}
           hexId={hexCounter}
           key={'hex-' + hexCounter}
-          randomHexagonOrientations={randomHexagonOrientations}
+          hexagonOrientations={hexagonOrientations}
         >
           <Port
             portId={hexCounter}

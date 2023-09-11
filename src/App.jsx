@@ -12,7 +12,7 @@ function App() {
   return (
     <>
     <div className='map-parent'>
-    <Map trulyRandomPorts={false} randomHexagonOrientations={false}/>
+    <Map trulyRandomPorts={false} hexagonOrientations={"random"}/>
     </div>
     </>
   )

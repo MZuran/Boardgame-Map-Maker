@@ -171,13 +171,11 @@
   background-image: url(../../media/images/ports/wheat_port.png);
 }
 
-.map-column {
-  display: flex;
-  flex-direction: column;
-}
-
 .rotate-0 {
   transform: rotate(0deg);
+}
+.rotate-0 .hex-child {
+  transform: rotate(-0deg);
 }
 
 .rotate-60 {
@@ -190,17 +188,34 @@
 .rotate-120 {
   transform: rotate(120deg);
 }
+.rotate-120 .hex-child {
+  transform: rotate(-120deg);
+}
 
 .rotate-180 {
   transform: rotate(180deg);
+}
+.rotate-180 .hex-child {
+  transform: rotate(-180deg);
 }
 
 .rotate-240 {
   transform: rotate(240deg);
 }
+.rotate-240 .hex-child {
+  transform: rotate(-240deg);
+}
 
 .rotate-300 {
   transform: rotate(300deg);
+}
+.rotate-300 .hex-child {
+  transform: rotate(-300deg);
+}
+
+.map-column {
+  display: flex;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=app.css.map */

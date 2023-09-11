@@ -1,0 +1,30 @@
+@mixin rotate-hex($angle) {
+    transform: rotate(#{$angle});
+    .hex-child {
+      transform: rotate(-#{$angle});
+    }
+  }
+
+.rotate-0 {
+    @include rotate-hex(0deg);
+}
+
+.rotate-60 {
+    @include rotate-hex(60deg);
+}
+
+.rotate-120 {
+    @include rotate-hex(120deg);
+}
+
+.rotate-180 {
+    @include rotate-hex(180deg);
+}
+
+.rotate-240 {
+    @include rotate-hex(240deg);
+}
+
+.rotate-300 {
+    @include rotate-hex(300deg);
+}
