@@ -1,0 +1,44 @@
+.hex {
+    margin-bottom: $hex-margin-bottom;
+
+    background-size: cover;
+    
+    width: $hex-width;
+    height: $hex-height;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .hex-child {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    overflow: visible;
+}
+
+.hex-brick {
+    background-image: url(../../media/images/full_hexes/Brick.png);
+}
+
+.hex-wheat {
+    background-image: url(../../media/images/full_hexes/Wheat.png);
+}
+
+.hex-wood {
+    background-image: url(../../media/images/full_hexes/Wood.png);
+}
+
+.hex-desert {
+    background-image: url(../../media/images/full_hexes/Desert.png);
+}
+
+.hex-rock {
+    background-image: url(../../media/images/full_hexes/Rock.png);
+}
+
+.hex-sheep {
+    background-image: url(../../media/images/full_hexes/Sheep.png);
+}

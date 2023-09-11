@@ -1,0 +1,13 @@
+.map-container {
+    transform: scale(1);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    overflow: visible;
+}
+
+.map-column {
+    margin-right: $hex-margin-right;
+}

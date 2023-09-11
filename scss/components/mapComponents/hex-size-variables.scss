@@ -1,0 +1,14 @@
+$hex-height-multiplier: 1.12651646447;
+
+$hex-height-px: 577px;
+$hex-width-px: 650px;
+
+//$hex-width: 20vh;
+$hex-width: 6cm;
+$hex-height: calc($hex-width / $hex-height-multiplier);
+
+$hex-margin-bottom: calc(-1 * ($hex-height * (17/100)));
+
+$hex-margin-right: calc(-1 * ($hex-width * (36/100))); //Used for columns
+
+$number-size: calc($hex-height / 3.2);

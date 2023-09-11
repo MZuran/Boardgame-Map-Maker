@@ -1,0 +1,60 @@
+.port {
+    background-size: cover;
+    
+    width: $hex-width;
+    height: $hex-height;
+
+    position: absolute;
+
+    flex-shrink: 0;
+
+    z-index: -1;
+}
+
+.port-up {
+    transform: translate(0, $hex-height * -0.85) rotate(180deg);
+}
+
+.port-up-left {
+    transform: translate($hex-width * -0.65, $hex-height * -0.43) rotate(120deg) ;
+}
+
+.port-down-left {
+    transform: translate($hex-width * -0.65, $hex-height * 0.43) rotate(60deg);
+}
+
+.port-down-right {
+    transform: translate($hex-width * 0.65, $hex-height * 0.43) rotate(300deg);
+}
+
+.port-down {
+    transform: translate($hex-width * 0, $hex-height * 0.85) rotate(0deg);
+}
+
+.port-up-right {
+    transform: translate($hex-width * 0.65, $hex-height * -0.43) rotate(240deg);
+}
+
+.port-generic {
+    background-image: url(../../media/images/ports/cheaper_trade.png);
+}
+
+.port-sheep {
+    background-image: url(../../media/images/ports/sheep_port.png);
+}
+
+.port-wood {
+    background-image: url(../../media/images/ports/wood_port.png);
+}
+
+.port-brick {
+    background-image: url(../../media/images/ports/brick_port.png);
+}
+
+.port-rock {
+    background-image: url(../../media/images/ports/rock_port.png);
+}
+
+.port-wheat {
+    background-image: url(../../media/images/ports/wheat_port.png);
+}

@@ -1,0 +1,173 @@
+{
+  "pieces": {
+    "terrainArray": [
+      "brick",
+      "brick",
+      "brick",
+      "sheep",
+      "sheep",
+      "sheep",
+      "sheep",
+      "rock",
+      "rock",
+      "rock",
+      "wheat",
+      "wheat",
+      "wheat",
+      "wheat",
+      "wood",
+      "wood",
+      "wood",
+      "wood",
+      "desert"
+    ],
+    "numberArray": [2, 3, 3, 4, 4, 5, 5, 6, 6, 8, 8, 9, 9, 10, 10, 11, 11, 12, 0],
+    "blackNumberArray": [6,6,8,8],
+    "portsArray": [
+      "port-generic",
+      "port-generic",
+      "port-generic",
+      "port-generic",
+      "port-brick",
+      "port-wheat",
+      "port-rock",
+      "port-sheep",
+      "port-wood"
+    ]
+  },
+  "hexes": {
+    "1": {
+        "column": 1,
+        "adjacentHexes": [2, 5, 4],
+        "adjacentWater": ["up", "up-left", "down-left"],
+        "id": "hex-1"
+      },
+
+      "2": {
+        "column": 1,
+        "adjacentHexes": [1, 5, 6, 3],
+        "adjacentWater": ["up-left", "down-left"],
+        "id": "hex-2"
+        },
+    
+    "3": {
+        "column": 1,
+        "adjacentHexes": [2, 6, 7],
+        "adjacentWater": ["up-left", "down-left", "down"],
+        "id": "hex-3"
+        },
+
+    "4": {
+        "column": 2,
+        "adjacentHexes": [1, 5, 9, 8],
+        "adjacentWater": ["up", "up-left"],
+        "id": "hex-4"
+        },
+
+    "5": {
+        "column": 2,
+        "adjacentHexes": [1, 2, 6, 10, 9, 4],
+        "adjacentWater": [],
+        "id": "hex-5"
+        },
+
+    "6": {
+        "column": 2,
+        "adjacentHexes": [2, 3, 7, 11, 10, 5],
+        "adjacentWater": [],
+        "id": "hex-6"
+        },
+
+    "7": {
+        "column": 2,
+        "adjacentHexes": [3, 6, 11, 12],
+        "adjacentWater": ["down-left", "down"],
+        "id": "hex-7"
+        },
+
+    "8": {
+        "column": 3,
+        "adjacentHexes": [4, 9, 13],
+        "adjacentWater": ["up", "up-left", "up-right"],
+        "id": "hex-8"
+        },
+
+    "9": {
+        "column": 3,
+        "adjacentHexes": [4, 8, 13, 5, 10, 14],
+        "adjacentWater": [],
+        "id": "hex-9"
+        },
+
+    "10": {
+        "column": 3,
+        "adjacentHexes": [5, 9, 14, 6, 11, 15],
+        "adjacentWater": [],
+        "id": "hex-10"
+        },
+
+    "11": {
+        "column": 3,
+        "adjacentHexes": [6, 10, 15, 7, 12, 16],
+        "adjacentWater": [],
+        "id": "hex-11"
+        },
+
+    "12": {
+        "column": 3,
+        "adjacentHexes": [7, 11, 16],
+        "adjacentWater": ["down-left", "down", "down-right"],
+        "id": "hex-12"
+        },
+    
+    "13": {
+        "column": 4,
+        "adjacentHexes": [8, 9, 14, 17],
+        "adjacentWater": ["up", "up-right"],
+        "id": "hex-13"
+        },
+
+    "14": {
+        "column": 4,
+        "adjacentHexes": [9, 13, 17, 10, 15, 18],
+        "adjacentWater": [],
+        "id": "hex-14"
+        },
+
+    "15": {
+        "column": 4,
+        "adjacentHexes": [10, 14, 18, 11, 16, 19],
+        "adjacentWater": [],
+        "id": "hex-15"
+        },
+
+    "16": {
+        "column": 4,
+        "adjacentHexes": [12, 11, 15, 19],
+        "adjacentWater": ["down", "down-right"],
+        "id": "hex-16"
+        },
+    
+    "17": {
+        "column": 5,
+        "adjacentHexes": [13, 14, 18],
+        "adjacentWater": ["up", "down-right", "up-right"],
+        "id": "hex-17"
+        },
+
+    "18": {
+        "column": 5,
+        "adjacentHexes": [17, 14, 15, 19],
+        "adjacentWater": ["down-right", "up-right"], 
+        "id": "hex-18"
+        },
+
+    "19": {
+        "column": 5,
+        "adjacentHexes": [18, 15, 16],
+        "adjacentWater": ["down", "down-right", "up-right"],
+        "id": "hex-19"
+        }
+  },
+  "hexesByRow": [3,4,5,4,3]
+}
